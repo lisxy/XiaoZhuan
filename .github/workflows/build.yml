@@ -65,7 +65,7 @@ jobs:
           retention-days: 7
 
   build-mac-intel:
-    runs-on: macos-13
+    runs-on: macos-15-intel
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
